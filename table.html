@@ -1,0 +1,103 @@
+<html>
+<head>
+<style>
+
+form{
+ background: silver;
+ width:500px;
+ padding: 50px;
+ border: 5px solid blue;
+ margin: 0 auto;
+ }
+ input[type="text"],[type="password"]
+ {
+ width 300px;
+ height: 20px;
+ border: 1px solid black;
+ }
+ textarea{
+  resize: none;
+  border: 1px solid black;
+  
+ }
+ input[type="submit"]{
+  background: grey;
+  color:black;
+  border: 1px solid black;
+  width: 372px;
+  height: 30px;
+  
+ }
+
+</style>
+
+</head><body>
+
+
+<form>
+<h2>FILL UP THE APPLICATION FORM</h2><HR>
+<table>
+	     <tr>
+		   <td>
+		   <label
+		       for="user">Username:-</label>
+		   </td>
+		   <td><input type="text" id="user" name="user"></td>
+		 </tr>
+		  <tr>
+		    <td>
+			  <label for="pass">Password:-</label>			  
+			</td>
+			<td><input type="password" id="pass" name="pass"></td>			
+		 
+		 
+		 </tr>  
+		 <tr>
+		    <td>
+			  <label>Gender:-</label>			  
+			</td>
+			<td>MALE: <input type="radio" name="gender" value="male"> | FEMALE: <input type="radio" name="gender" value="female">
+			</td>			
+		 
+		 
+		 </tr>   
+		 <tr>
+		    <td>
+			  <label>SKILLS:-</label>			  
+			</td>
+			<td>HTML <input type="checkbox" VALUE="HTML" name="html"> | CSS <input type="CHECKBOX" value="css" name="css">
+			</td>			
+		
+		 
+		 </tr>     
+		 <tr>
+		    <td>
+			  <label for="country">NATIONALITY:-</label>			  
+			</td>
+			<td>
+			<select id="country" name="country">
+			   <option>Select your Country</option>
+			   <option value="ch">China</option>
+			   <option value="uk">United Kingdom</option>
+			   <option value="ind">India</option>
+			   <option value="pak">Pakistan</option>
+			   </select>
+			</td>			
+		 
+		 
+		 </tr>
+		 <tr>
+		 <td><label for="comments">Comments</label></td>
+			<td><textarea rows=10 cols=50>Write atleast 10 characters</textarea></td>
+		 </tr>
+		  <tr>
+              <td></td>			   
+		      <td><input type="submit" value="click to submit" name="submit_form"></td>
+		 </tr>
+		
+       
+	   </table>
+	 
+	</form>
+
+</body></html>
